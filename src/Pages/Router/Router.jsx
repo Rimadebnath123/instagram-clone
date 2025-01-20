@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../../Components/Sidebar/Sidebar";
 import { Route, Routes } from "react-router-dom";
+import Sidebar from "../../Components/Sidebar/Sidebar";
 import Homepage from "../Homepage/Homepage";
 
 const Router = () => {
   return (
     <div>
-      <div>
+      <div className="flex">
         <div>
           <Sidebar />
         </div>
