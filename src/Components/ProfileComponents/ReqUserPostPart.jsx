@@ -26,12 +26,12 @@ const ReqUserPostPart = () => {
   return (
     <div>
       <div>
-        {tabs.map((item) => (
+        {tabs.map((item) =>
           <div className="flex items-center cursor-pointer py-2 text-sm">
             <p>{item.icon}</p>
             <p>{item.tab}</p>
           </div>
-        ))}
+        )}
       </div>
     </div>
   );

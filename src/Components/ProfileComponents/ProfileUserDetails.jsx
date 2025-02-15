@@ -5,7 +5,7 @@ const ProfileUserDetails = () => {
   return (
     <div className="py-10 w-full">
       <div className="flex items-center">
-        <div className="w-[15%]">
+        <div className="w-[20%]">
           <img
             className="w-32 h-32 rounded-full"
             src="https://cdn.pixabay.com/photo/2018/10/21/21/28/autumn-3763897_1280.jpg"
@@ -14,7 +14,7 @@ const ProfileUserDetails = () => {
         </div>
         <div className="space-y-5">
           <div className="flex space-x-10 items-center">
-            <p>uername</p>
+            <p>Asadul Mondol</p>
             <button>Edit Profile </button>
             <TbCircleDashed></TbCircleDashed>
           </div>
