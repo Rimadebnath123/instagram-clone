@@ -9,7 +9,7 @@ const Profile = () => {
         <ProfileUserDetails />
       </div>
       <div>
-        <ReqUserPostPart></ReqUserPostPart>
+        <ReqUserPostPart />
       </div>
     </div>
   );
